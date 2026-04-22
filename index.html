@@ -42,21 +42,6 @@
             text-transform: uppercase;
             font-size: 0.9em;
         }
-        .dollar-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        .dollar-table th, .dollar-table td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #333;
-        }
-        .dollar-table th {
-            color: #ff69b4;
-            text-transform: uppercase;
-            font-size: 0.9em;
-        }
         .profit {
             font-family: 'Courier New', Courier, monospace;
             color: #00ff00;
@@ -95,8 +80,12 @@
     <h2>Total Bazaar Sales</h2>
     <table class="sales-table">
         <tr>
-            <th>Metric</th>
+            <th>Sales Metric</th>
             <th>Total</th>
+        </tr>
+        <tr>
+            <td>Items Sold</td>
+            <td class="profit">22,765</td>
         </tr>
         <tr>
             <td>Total Income</td>
@@ -107,31 +96,23 @@
             <td class="profit">454</td>
         </tr>
         <tr>
-            <td>Items Sold</td>
-            <td class="profit">22,765</td>
-        </tr>
-    </table>
-
-    <h2>Dollar Bazaar Sales</h2>
-    <table class="dollar-table">
-        <tr>
-            <th>Metric</th>
+            <th>Dollar Sales Metric</th>
             <th>Total</th>
-        </tr>
-        <tr>
-            <td>Total Loss</td>
-            <td class="loss">$1,702,117</td>
-        </tr>
-        <tr>
-            <td>Unique Buyers</td>
-            <td class="loss">125</td>
         </tr>
         <tr>
             <td>Items Sold at $1</td>
             <td class="loss">177</td>
         </tr>
         <tr>
-            <td>Average Worth</td>
+            <td>Unique Buyers</td>
+            <td class="loss">125</td>
+        </tr>
+        <tr>
+            <td>Total Loss</td>
+            <td class="loss">$1,702,117</td>
+        </tr>
+        <tr>
+            <td>Average Worth of $1 Items</td>
             <td class="loss">$9,617</td>
         </tr>
     </table>
